@@ -239,6 +239,9 @@ gtkwave traffic_light.vcd
 # Timer Verification
 ![Timer Verification](images/timer_verification.png)
 
+# FPGA Connection
+![FPGA Connection](images/fpga_connection_diagram.png)
+
 ---
 
 ## Verification Results
