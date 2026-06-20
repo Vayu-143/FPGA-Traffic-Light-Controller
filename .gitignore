@@ -1,0 +1,92 @@
+# =====================================
+# FPGA / Verilog / SystemVerilog
+# =====================================
+
+# Simulation Outputs
+*.vcd
+*.vvp
+*.out
+*.log
+*.jou
+*.wlf
+*.fst
+
+# GTKWave Files
+*.gtkw
+*.sav
+
+# Icarus Verilog
+traffic_sim
+
+# ModelSim / QuestaSim
+work/
+transcript
+vsim.wlf
+modelsim.ini
+
+# Vivado
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.runs/
+.gen/
+.srcs/
+.xpr.user
+*.jou
+*.log
+*.str
+*.pb
+*.dcp
+*.bit
+*.bin
+*.ltx
+*.xsa
+
+# Xilinx Temporary Files
+.Xil/
+
+# Quartus (if used)
+db/
+incremental_db/
+output_files/
+*.qws
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python Cache (if documentation scripts are used)
+__pycache__/
+*.pyc
+
+# PDF Backup Files
+*.aux
+*.toc
+*.out
+
+# Keep Documentation
+!docs/*.pdf
+
+# Keep Images
+!images/*.png
+!images/*.jpg
+
+# Keep Waveform Screenshots
+!waveforms/*.png
+
+# Keep Source Files
+!rtl/*.sv
+!rtl/*.v
+!tb/*.sv
+!tb/*.v
+!constraints/*.xdc
